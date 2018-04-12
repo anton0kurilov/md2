@@ -19,3 +19,8 @@
 * {
     font-family: 'Product Sans', 'Roboto', sans-serif;
 }
+
+body {
+    margin: 0;
+    padding: 0;
+}
