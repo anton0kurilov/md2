@@ -15,3 +15,7 @@
 
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 /*-- MAIN TAGS --*/
+
+* {
+    font-family: 'Product Sans', 'Roboto', sans-serif;
+}
