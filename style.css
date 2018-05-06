@@ -48,3 +48,43 @@ h5 {
     position: relative;
     z-index: 1;
 }
+
+/*-- BUTTONS --*/
+
+.md2-button {
+    background-color: transparent;
+    outline: none;
+    padding: 7px 18px;
+    margin: 8px 0;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    font-weight: 600;
+    font-family: 'Product Sans', sans-serif;
+    transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    -webkit-transition: all .3s;
+    cursor: pointer;
+}
+
+.md2-button-blue {
+    border: 2px solid #4285f4;
+    color: #4285f4;
+}
+
+.md2-button-blue:hover {
+    background-color: #4285f4;
+    color: white;
+}
+
+.md2-button-gray {
+    border: 2px solid #8e8e8e;
+    color: #8e8e8e;
+}
+
+.md2-button-gray:hover {
+    background-color: #8e8e8e;
+    color: white;
+}
