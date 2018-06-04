@@ -69,6 +69,18 @@ header.md2-header {
 	z-index: 1;
 }
 
+.md2-card-shadowless {
+	background-color: white;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border: 2px solid #d3d3d3;
+	padding: 15px 20px;
+	margin: 10px 0;
+	position: relative;
+	z-index: 1;
+}
+
 /*-- BUTTONS --*/
 
 .md2-button-blue,
