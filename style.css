@@ -54,6 +54,13 @@ header.md2-header {
 	-webkit-box-shadow: 0 .125rem .3125rem rgba(0, 0, 0, .26);
 }
 
+/*-- MAIN --*/
+
+main.md2-main {
+	width: 1200px;
+	margin: 25px auto;
+}
+
 /*-- CARDS --*/
 
 .md2-card {
@@ -121,4 +128,13 @@ header.md2-header {
 .md2-button-gray:hover {
 	background-color: #8e8e8e;
 	color: white;
+}
+
+/*-- MOBILE OPTIMIZATIONS --*/
+
+@media screen and (max-width: 1400px) {
+	main.md2-main {
+		width: 80%;
+		margin: 15px auto;
+	}
 }
