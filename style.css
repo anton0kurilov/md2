@@ -21,24 +21,24 @@
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 /*-- MAIN TAGS --*/
 
-body {
+body.md2 {
 	margin: 0;
 	padding: 0;
 	background-color: #fcfcfc;
 	color: #616161;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5 {
+h1.md2-h,
+h2.md2-h,
+h3.md2-h,
+h4.md2-h,
+h5.md2-h {
 	font-weight: 400;
 	font-family: 'Product Sans', 'Roboto', sans-serif;
 }
 
-p,
-a {
+p.md2-p,
+a.md2-a {
 	font-family: 'Roboto', sans-serif;
 }
 
