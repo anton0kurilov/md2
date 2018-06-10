@@ -82,7 +82,7 @@ main.md2-main {
 	border-radius: 10px;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
-	border: 2px solid #8e8e8e;
+	border: 2px solid rgba(0, 0, 0, .2);
 	padding: 15px 20px;
 	margin: 10px 0;
 	position: relative;
