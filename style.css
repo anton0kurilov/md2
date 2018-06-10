@@ -77,7 +77,7 @@ main.md2-main {
 	z-index: 1;
 }
 
-.md2-card-shadowless {
+.md2-card-noshadow {
 	background-color: white;
 	border-radius: 10px;
 	-moz-border-radius: 10px;
