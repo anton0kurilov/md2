@@ -135,6 +135,12 @@ main.md2-main {
 @media screen and (max-width: 1400px) {
 	main.md2-main {
 		width: 80%;
-		margin: 15px auto;
+		margin: 20px auto;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	main.md2-main {
+		width: 90%;
 	}
 }
