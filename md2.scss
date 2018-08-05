@@ -1,0 +1,139 @@
+/*
+*   md2-library 0.0.2
+*
+*   This file is subject to the terms and conditions defined in
+*   file 'LICENSE', which is part of this source code package.
+*
+*   https://github.com/anton0kurilov/md2-library.git
+*
+*   These third-party apps are used:
+*   · Product Sans Font
+*   · Roboto Font (Apache License Version 2.0)
+*   · Material Icons (Apache License Version 2.0)
+*/
+
+/*-- VAR --*/
+
+$md-color-blue: #4285f4;
+$md-color-gray: #8e8e8e;
+$md-color-border: rgba(0, 0, 0, .2);
+/*-- FONTS --*/
+
+@import url('https://fonts.googleapis.com/css?family=Product+Sans');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+/*-- ICONS --*/
+
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+/*-- MAIN TAGS --*/
+
+body.md2 {
+    margin: 0;
+    padding: 0;
+    background-color: #fcfcfc;
+    color: #616161;
+}
+
+h1.md2-h,
+h2.md2-h,
+h3.md2-h,
+h4.md2-h,
+h5.md2-h {
+    font-weight: 600;
+    font-family: 'Product Sans', sans-serif;
+}
+
+p.md2-p,
+a.md2-a {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*-- HEADER --*/
+
+header.md2-header {
+    background-color: white;
+    width: 100%;
+    height: 150px;
+    line-height: 150px;
+    box-shadow: 0 .125rem .3125rem rgba(0, 0, 0, .26);
+    -moz-box-shadow: 0 .125rem .3125rem rgba(0, 0, 0, .26);
+    -webkit-box-shadow: 0 .125rem .3125rem rgba(0, 0, 0, .26);
+}
+
+/*-- MAIN --*/
+
+main.md2-main {
+    width: 1200px;
+    margin: 25px auto;
+}
+
+/*-- CARDS --*/
+
+.md2-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 1px 5px 0 $md-color-border;
+    padding: 15px 20px;
+    margin: 10px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.md2-card-noshadow {
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid $md-color-border;
+    padding: 15px 20px;
+    margin: 10px 0;
+    position: relative;
+    z-index: 1;
+}
+
+/*-- BUTTONS --*/
+
+.md2-button-blue,
+.md2-button-gray {
+    background-color: transparent;
+    outline: none;
+    padding: 7px 18px;
+    margin: 8px 0;
+    border-radius: 4px;
+    font-weight: 600;
+    font-family: 'Product Sans', sans-serif;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.md2-button-blue {
+    border: 2px solid $md-color-blue;
+    color: $md-color-blue;
+}
+
+.md2-button-blue:hover {
+    background-color: $md-color-blue;
+    color: white;
+}
+
+.md2-button-gray {
+    border: 2px solid $md-color-gray;
+    color: $md-color-gray;
+}
+
+.md2-button-gray:hover {
+    background-color: $md-color-gray;
+    color: white;
+}
+
+/*-- MOBILE OPTIMIZATIONS --*/
+
+@media screen and (max-width: 1400px) {
+    main.md2-main {
+        width: 80%;
+        margin: 20px auto;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    main.md2-main {
+        width: 90%;
+    }
+}
