@@ -1,6 +1,6 @@
-#Material Design 2.0 CSS Framework
+# Material Design 2.0 CSS Framework
 **Still in development!**
-##Install
+## Install
 
 Include the line in your HTML page:
 ```
