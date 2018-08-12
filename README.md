@@ -1,5 +1,5 @@
 # Material Design 2.0 CSS Framework
-** Still in development! **
+**Still in development!**
 ## Install
 
 Include the line in your HTML page:
