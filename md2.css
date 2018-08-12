@@ -76,13 +76,13 @@ main.md2-main {
 }
 
 .md2-card {
-	box-shadow: 0 1px 5px 0 rgba(0, 0, 0, .2);
-	-moz-box-shadow: 0 1px 5px 0 rgba(0, 0, 0, .2);
-	-webkit-box-shadow: 0 1px 5px 0 rgba(0, 0, 0, .2);
+	box-shadow: 0 1px 5px 0 rgba(0, 0, 0, .26);
+	-moz-box-shadow: 0 1px 5px 0 rgba(0, 0, 0, .26);
+	-webkit-box-shadow: 0 1px 5px 0 rgba(0, 0, 0, .26);
 }
 
 .md2-card-noshadow {
-	border: 2px solid rgba(0, 0, 0, .2);
+	border: 2px solid rgba(0, 0, 0, .26);
 }
 
 /*-- BUTTONS --*/
