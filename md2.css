@@ -127,6 +127,31 @@ main.md2-main {
 	color: white;
 }
 
+.md2-fab {
+	display: inline;
+	-moz-box-shadow: 0 1px 2px 0 rgba(60, 64, 67, .302), 0 1px 3px 1px rgba(60, 64, 67, .149);
+	-webkit-box-shadow: 0 1px 2px 0 rgba(60, 64, 67, .302), 0 1px 3px 1px rgba(60, 64, 67, .149);
+	box-shadow: 0 1px 2px 0 rgba(60, 64, 67, .302), 0 1px 3px 1px rgba(60, 64, 67, .149);
+	-moz-transition: box-shadow .08s linear, min-width .15s cubic-bezier(.4, .0, .2, 1);
+	-ms-transition: box-shadow .08s linear, min-width .15s cubic-bezier(.4, .0, .2, 1);
+	-o-transition: box-shadow .08s linear, min-width .15s cubic-bezier(.4, .0, .2, 1);
+	-webkit-transition: box-shadow .08s linear, min-width .15s cubic-bezier(.4, .0, .2, 1);
+	transition: box-shadow .08s linear, min-width .15s cubic-bezier(.4, .0, .2, 1);
+	padding: 15px 25px;
+	font-weight: 600;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	border-radius: 25px;
+	color: #616161;
+	cursor: pointer;
+}
+
+.md2-fab:hover {
+	-moz-box-shadow: 0 1px 3px 0 rgba(60, 64, 67, .302), 0 4px 8px 3px rgba(60, 64, 67, .149);
+	-webkit-box-shadow: 0 1px 3px 0 rgba(60, 64, 67, .302), 0 4px 8px 3px rgba(60, 64, 67, .149);
+	box-shadow: 0 1px 3px 0 rgba(60, 64, 67, .302), 0 4px 8px 3px rgba(60, 64, 67, .149);
+}
+
 /*-- MOBILE OPTIMIZATIONS --*/
 
 @media screen and (max-width: 1400px) {
