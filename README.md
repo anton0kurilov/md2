@@ -1,4 +1,4 @@
-# Material Design 2.0 CSS Framework
+# Material Design 2.0 (Material Theme) CSS Framework
 **Still in development!**
 ## Install
 
