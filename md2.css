@@ -58,8 +58,16 @@ header.md2-header {
 /*-- MAIN --*/
 
 main.md2-main {
-	width: 1200px;
 	margin: 25px auto;
+}
+
+div.md2-main {
+	margin: 0 auto;
+}
+
+main.md2-main,
+div.md2-main {
+	width: 1200px;
 }
 
 /*-- CARDS --*/
@@ -161,14 +169,18 @@ main.md2-main {
 /*-- MOBILE OPTIMIZATIONS --*/
 
 @media screen and (max-width: 1400px) {
-	main.md2-main {
+	main.md2-main,
+	div.md2-main {
 		width: 80%;
+	}
+	main.md2-main {
 		margin: 20px auto;
 	}
 }
 
 @media screen and (max-width: 800px) {
-	main.md2-main {
+	main.md2-main,
+	div.md2-main {
 		width: 90%;
 	}
 }
