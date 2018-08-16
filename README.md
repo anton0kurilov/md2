@@ -12,6 +12,6 @@ Enjoy!
 
 **Still in development**
 
-# Copyright and licence
+## Copyright and licence
 
 Code released under the [MIT Licence](https://github.com/anton0kurilov/md2-library/blob/master/LICENSE). 
