@@ -94,25 +94,35 @@ div.md2-main {
 	border: 2px solid rgba(0, 0, 0, .26);
 }
 
-/*-- BUTTONS --*/
+/*-- BUTTONS & INPUTS --*/
 
 .md2-button-blue,
-.md2-button-gray {
+.md2-button-gray,
+.md2-input {
 	background-color: transparent;
 	outline: none;
-	padding: 7px 18px;
 	margin: 8px 0;
 	-moz-border-radius: 4px;
 	-webkit-border-radius: 4px;
 	border-radius: 4px;
 	font-weight: 600;
 	font-family: 'Product Sans', sans-serif;
+}
+
+.md2-button-blue,
+.md2-button-gray {
+	cursor: pointer;
+	padding: 7px 18px;
 	-moz-transition: all .3s;
 	-ms-transition: all .3s;
 	-o-transition: all .3s;
 	-webkit-transition: all .3s;
 	transition: all .3s;
-	cursor: pointer;
+}
+
+.md2-input {
+	cursor: text;
+	padding: 7px 8px;
 }
 
 .md2-button-blue {
@@ -125,7 +135,8 @@ div.md2-main {
 	color: white;
 }
 
-.md2-button-gray {
+.md2-button-gray,
+.md2-input {
 	border: 2px solid #8e8e8e;
 	color: #8e8e8e;
 }
