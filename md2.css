@@ -61,6 +61,11 @@ header.md2-header h1.md2-header-title {
 	font-size: 1.8em;
 }
 
+header.md2-header i.md2-icon-menu {
+	padding: 10px;
+	border-radius: 50%;
+}
+
 /*-- MAIN --*/
 
 main.md2-main {
