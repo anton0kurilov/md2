@@ -158,7 +158,8 @@ div.md2-main {
 	color: white;
 }
 
-.md2-fab {
+.md2-fab,
+.md2-fab-round {
 	display: inline;
 	-moz-box-shadow: 0 1px 2px 0 rgba(60, 64, 67, .302), 0 1px 3px 1px rgba(60, 64, 67, .149);
 	-webkit-box-shadow: 0 1px 2px 0 rgba(60, 64, 67, .302), 0 1px 3px 1px rgba(60, 64, 67, .149);
@@ -168,16 +169,26 @@ div.md2-main {
 	-o-transition: box-shadow .08s linear, min-width .15s cubic-bezier(.4, .0, .2, 1);
 	-webkit-transition: box-shadow .08s linear, min-width .15s cubic-bezier(.4, .0, .2, 1);
 	transition: box-shadow .08s linear, min-width .15s cubic-bezier(.4, .0, .2, 1);
-	padding: 15px 25px;
 	font-weight: 600;
-	-moz-border-radius: 25px;
-	-webkit-border-radius: 25px;
-	border-radius: 25px;
+	background-color: white;
 	color: #616161;
 	cursor: pointer;
 }
 
-.md2-fab:hover {
+.md2-fab {
+	padding: 15px 25px;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	border-radius: 25px;
+}
+
+.md2-fab-round {
+	padding: 20px;
+	border-radius: 50%;
+}
+
+.md2-fab:hover,
+.md2-fab-round:hover {
 	-moz-box-shadow: 0 1px 3px 0 rgba(60, 64, 67, .302), 0 4px 8px 3px rgba(60, 64, 67, .149);
 	-webkit-box-shadow: 0 1px 3px 0 rgba(60, 64, 67, .302), 0 4px 8px 3px rgba(60, 64, 67, .149);
 	box-shadow: 0 1px 3px 0 rgba(60, 64, 67, .302), 0 4px 8px 3px rgba(60, 64, 67, .149);
