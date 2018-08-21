@@ -56,7 +56,7 @@ header.md2-header {
 	box-shadow: 0 .125rem .3125rem rgba(0, 0, 0, .26);
 }
 
-header.md2-header h1.md2-header-title {
+header.md2-header h1.md2-title {
 	margin: 0;
 	font-family: 'Product Sans', sans-serif;
 	font-size: 1.8em;
