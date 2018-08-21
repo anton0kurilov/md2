@@ -56,6 +56,11 @@ header.md2-header {
 	box-shadow: 0 .125rem .3125rem rgba(0, 0, 0, .26);
 }
 
+header.md2-header .md2-header-body {
+	display: flex;
+	align-items: center;
+}
+
 header.md2-header h1.md2-title {
 	margin: 0;
 	font-family: 'Product Sans', sans-serif;

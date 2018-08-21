@@ -68,6 +68,10 @@ header.md2-header {
         padding: 10px;
         border-radius: 50%;
     }
+    .md2-header-body {
+        display: flex;
+        align-items: center;
+    }
 }
 
 /*-- MAIN --*/
