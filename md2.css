@@ -170,10 +170,14 @@ div.md2-main {
 	color: #4285f4;
 }
 
-.md2-button-blue:hover,
-.md2-button-blue-simple:hover {
+.md2-button-blue:hover {
 	background-color: #4285f4;
 	color: white;
+}
+
+.md2-button-blue-simple:hover {
+	background-color: rgba(66, 133, 244, .2);
+	color: #4285f4;
 }
 
 .md2-button-gray,
@@ -187,10 +191,14 @@ div.md2-main {
 	color: #8e8e8e;
 }
 
-.md2-button-gray:hover,
-.md2-button-gray-simple:hover {
+.md2-button-gray:hover {
 	background-color: #8e8e8e;
 	color: white;
+}
+
+.md2-button-gray-simple:hover {
+	background-color: rgba(142, 142, 142, .2);
+	color: #8e8e8e;
 }
 
 .md2-fab,

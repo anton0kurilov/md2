@@ -157,10 +157,14 @@ div.md2-main {
     color: $md-color-blue;
 }
 
-.md2-button-blue:hover,
-.md2-button-blue-simple:hover {
+.md2-button-blue:hover {
     background-color: $md-color-blue;
     color: white;
+}
+
+.md2-button-blue-simple:hover {
+    background-color: rgba(66, 133, 244, .2);
+    color: $md-color-blue;
 }
 
 .md2-button-gray,
@@ -174,10 +178,14 @@ div.md2-main {
     color: $md-color-gray;
 }
 
-.md2-button-gray:hover,
-.md2-button-gray-simple:hover {
+.md2-button-gray:hover {
     background-color: $md-color-gray;
     color: white;
+}
+
+.md2-button-gray-simple:hover {
+    background-color: rgba(142, 142, 142, .2);
+    color: $md-color-gray;
 }
 
 .md2-fab,
