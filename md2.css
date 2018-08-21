@@ -127,7 +127,9 @@ div.md2-main {
 /*-- BUTTONS & INPUTS --*/
 
 .md2-button-blue,
+.md2-button-blue-simple,
 .md2-button-gray,
+.md2-button-gray-simple,
 .md2-input {
 	background-color: transparent;
 	outline: none;
@@ -141,7 +143,9 @@ div.md2-main {
 }
 
 .md2-button-blue,
-.md2-button-gray {
+.md2-button-blue-simple,
+.md2-button-gray,
+.md2-button-gray-simple {
 	cursor: pointer;
 	padding: 7px 18px;
 	-moz-transition: all .3s;
@@ -161,7 +165,13 @@ div.md2-main {
 	color: #4285f4;
 }
 
-.md2-button-blue:hover {
+.md2-button-blue-simple {
+	border: 2px solid transparent;
+	color: #4285f4;
+}
+
+.md2-button-blue:hover,
+.md2-button-blue-simple:hover {
 	background-color: #4285f4;
 	color: white;
 }
@@ -172,13 +182,20 @@ div.md2-main {
 	color: #8e8e8e;
 }
 
-.md2-button-gray:hover {
+.md2-button-gray-simple {
+	border: 2px solid transparent;
+	color: #8e8e8e;
+}
+
+.md2-button-gray:hover,
+.md2-button-gray-simple:hover {
 	background-color: #8e8e8e;
 	color: white;
 }
 
 .md2-fab,
 .md2-fab-round {
+	z-index: 1;
 	display: inline;
 	-moz-box-shadow: 0 1px 2px 0 rgba(60, 64, 67, .302), 0 1px 3px 1px rgba(60, 64, 67, .149);
 	-webkit-box-shadow: 0 1px 2px 0 rgba(60, 64, 67, .302), 0 1px 3px 1px rgba(60, 64, 67, .149);
