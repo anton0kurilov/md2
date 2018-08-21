@@ -69,7 +69,18 @@ header.md2-header h1.md2-title {
 
 header.md2-header i.md2-icon-menu {
 	padding: 10px;
+	margin: 0 20px;
 	border-radius: 50%;
+	font-size: 1.8em;
+	cursor: pointer;
+	-moz-transition: all .3s;
+	-ms-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
+}
+
+header.md2-header i.md2-icon-menu:hover {
+	background-color: rgba(0, 0, 0, .071);
 }
 
 /*-- MAIN --*/
