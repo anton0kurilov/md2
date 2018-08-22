@@ -87,6 +87,24 @@ header.md2-header {
     align-items: center;
 }
 
+header.md2-header nav.md2-menu {
+    margin: 0 20px 0 auto;
+    a {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: $md-color-gray;
+        font-weight: 600;
+        padding: 37px .75rem 32px .75rem;
+        margin: 0 .5rem;
+        border-bottom: .25rem solid transparent;
+        transition: all .3s;
+    }
+    a:hover {
+        color: #616161;
+        border-color: $md-color-blue;
+    }
+}
+
 /*-- MAIN --*/
 
 main.md2-main {
@@ -149,6 +167,7 @@ div.md2-main {
 
 .md2-input {
     cursor: text;
+    display: block;
     padding: 7px 8px;
 }
 
