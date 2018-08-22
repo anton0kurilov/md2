@@ -244,7 +244,7 @@ div.md2-main {
 
 .md2-fab-fix {
     position: fixed;
-    bottom: 30px;
+    bottom: 25px;
     right: 25px;
 }
 
@@ -267,5 +267,9 @@ div.md2-main {
     }
     .md2-fab-round {
         padding: 15px;
+    }
+    .md2-fab-fix {
+        bottom: 15px;
+        right: 15px;
     }
 }
