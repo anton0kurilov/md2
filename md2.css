@@ -100,7 +100,7 @@ header.md2-header nav.md2-menu a {
 	text-transform: uppercase;
 	color: #8e8e8e;
 	font-weight: 600;
-	padding: 37px .75rem 32px .75rem;
+	padding: 37px .75rem 32.5px .75rem;
 	margin: 0 .5rem;
 	border-bottom: .25rem solid transparent;
 	-moz-transition: all .3s;
