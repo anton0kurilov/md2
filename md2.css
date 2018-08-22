@@ -67,7 +67,8 @@ header.md2-header h1.md2-title {
 	font-size: 1.8em;
 }
 
-header.md2-header i.md2-icon-menu {
+header.md2-header i.md2-icon-menu,
+header.md2-header i.md2-icon-search {
 	padding: 10px;
 	margin: 0 20px;
 	-moz-border-radius: 50%;
@@ -81,7 +82,12 @@ header.md2-header i.md2-icon-menu {
 	transition: all .3s;
 }
 
-header.md2-header i.md2-icon-menu:hover {
+header.md2-header i.md2-icon-search {
+	margin-left: auto;
+}
+
+header.md2-header i.md2-icon-menu:hover,
+header.md2-header i.md2-icon-search:hover {
 	background-color: rgba(0, 0, 0, .071);
 }
 

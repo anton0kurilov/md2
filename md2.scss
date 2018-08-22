@@ -64,7 +64,8 @@ header.md2-header {
         font-family: 'Product Sans', sans-serif;
         font-size: 1.8em;
     }
-    i.md2-icon-menu {
+    i.md2-icon-menu,
+    i.md2-icon-search {
         padding: 10px;
         margin: 0 20px;
         border-radius: 50%;
@@ -72,7 +73,11 @@ header.md2-header {
         cursor: pointer;
         transition: all .3s;
     }
-    i.md2-icon-menu:hover {
+    i.md2-icon-search {
+        margin-left: auto;
+    }
+    i.md2-icon-menu:hover,
+    i.md2-icon-search:hover {
         background-color: rgba(0, 0, 0, .071);
     }
 }
