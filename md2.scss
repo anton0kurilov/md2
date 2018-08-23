@@ -120,6 +120,49 @@ div.md2-main {
     width: $md-width-main;
 }
 
+/*-- ASIDE --*/
+
+div.md2-asidemain {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+aside.md2-aside {
+    width: 100px;
+    nav.md2-menu {
+        margin: 15px 0;
+        nav.md2-menu div {
+            text-align: center;
+            overflow: hidden;
+            padding: 15px 0;
+            margin: 0;
+            border-bottom: .25rem solid transparent;
+            cursor: pointer;
+            i.md2-menu-icon {
+                display: block;
+                font-size: 2em;
+            }
+            i.md2-menu-item {
+                text-decoration: none;
+                text-transform: uppercase;
+                font-style: normal;
+                text-overflow: ellipsis;
+                overflow: hidden;
+                white-space: nowrap;
+                font-size: 10px;
+            }
+        }
+        div:hover {
+            color: #4285f4;
+        }
+        a {
+            text-decoration: none;
+            color: #616161;
+        }
+    }
+}
+
 /*-- CARDS --*/
 
 .md2-card,
