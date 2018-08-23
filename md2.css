@@ -307,7 +307,7 @@ aside.md2-aside nav.md2-menu div i.md2-menu-item {
 
 .md2-fab,
 .md2-fab-round {
-	z-index: 1;
+	z-index: 997;
 	display: inline;
 	-moz-box-shadow: 0 1px 2px 0 rgba(60, 64, 67, .302), 0 1px 3px 1px rgba(60, 64, 67, .149);
 	-webkit-box-shadow: 0 1px 2px 0 rgba(60, 64, 67, .302), 0 1px 3px 1px rgba(60, 64, 67, .149);
@@ -346,6 +346,36 @@ aside.md2-aside nav.md2-menu div i.md2-menu-item {
 	position: fixed;
 	bottom: 25px;
 	right: 25px;
+}
+
+/*-- POPUP --*/
+
+.md2-overlay {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, .7);
+	z-index: 998;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.md2-popup {
+	z-index: 999;
+	background-color: white;
+	padding: 25px;
+	max-width: 25%;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	-moz-box-shadow: 0 12px 15px 0 rgba(0, 0, 0, .24);
+	-webkit-box-shadow: 0 12px 15px 0 rgba(0, 0, 0, .24);
+	box-shadow: 0 12px 15px 0 rgba(0, 0, 0, .24);
 }
 
 /*-- MOBILE OPTIMIZATIONS --*/
