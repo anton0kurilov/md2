@@ -129,6 +129,59 @@ div.md2-main {
 	width: 1200px;
 }
 
+/*-- ASIDE --*/
+
+div.md2-asidemain {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+aside.md2-aside {
+	width: 100px;
+}
+
+aside.md2-aside nav.md2-menu {
+	margin: 15px 0;
+}
+
+aside.md2-aside nav.md2-menu div {
+	text-align: center;
+	overflow: hidden;
+	padding: 15px 0;
+	margin: 0;
+	border-bottom: .25rem solid transparent;
+	-moz-transition: all .3s;
+	-ms-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
+	cursor: pointer;
+}
+
+aside.md2-aside nav.md2-menu a {
+	text-decoration: none;
+	color: #616161;
+}
+
+aside.md2-aside nav.md2-menu div:hover {
+	color: #4285f4;
+}
+
+aside.md2-aside nav.md2-menu div i.md2-menu-icon {
+	display: block;
+	font-size: 2em;
+}
+
+aside.md2-aside nav.md2-menu div i.md2-menu-item {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-style: normal;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	font-size: 10px;
+}
+
 /*-- CARDS --*/
 
 .md2-card,
