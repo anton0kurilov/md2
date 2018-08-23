@@ -61,6 +61,11 @@ header.md2-header .md2-header-body {
 	align-items: center;
 }
 
+header.md2-header a {
+	text-decoration: none;
+	color: #616161;
+}
+
 header.md2-header h1.md2-title {
 	margin: 0;
 	font-family: 'Product Sans', sans-serif;

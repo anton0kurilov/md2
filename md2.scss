@@ -59,6 +59,10 @@ header.md2-header {
     height: 90px;
     line-height: 90px;
     box-shadow: 0 .125rem .3125rem $md-color-shadow;
+    a {
+        text-decoration: none;
+        color: #616161;
+    }
     h1.md2-title {
         margin: 0;
         font-family: 'Product Sans', sans-serif;
