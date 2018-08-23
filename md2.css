@@ -356,6 +356,9 @@ aside.md2-aside nav.md2-menu div i.md2-menu-item {
 }
 
 @media screen and (max-width: 800px) {
+	header.md2-header nav.md2-menu {
+		display: none;
+	}
 	main.md2-main,
 	div.md2-main {
 		width: 90%;
