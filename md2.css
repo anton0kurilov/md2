@@ -308,7 +308,6 @@ aside.md2-aside nav.md2-menu div i.md2-menu-item {
 .md2-fab,
 .md2-fab-round {
 	z-index: 997;
-	display: inline;
 	-moz-box-shadow: 0 1px 2px 0 rgba(60, 64, 67, .302), 0 1px 3px 1px rgba(60, 64, 67, .149);
 	-webkit-box-shadow: 0 1px 2px 0 rgba(60, 64, 67, .302), 0 1px 3px 1px rgba(60, 64, 67, .149);
 	box-shadow: 0 1px 2px 0 rgba(60, 64, 67, .302), 0 1px 3px 1px rgba(60, 64, 67, .149);
@@ -331,8 +330,17 @@ aside.md2-aside nav.md2-menu div i.md2-menu-item {
 }
 
 .md2-fab-round {
-	padding: 20px;
+	width: 60px;
+	height: 60px;
+	text-align: center;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
 	border-radius: 50%;
+}
+
+.md2-fab-round i.md2-icon-add {
+	line-height: 60px;
+	font-size: 2em;
 }
 
 .md2-fab:hover,
