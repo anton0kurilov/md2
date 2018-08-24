@@ -349,4 +349,8 @@ aside.md2-aside {
         bottom: 15px;
         right: 15px;
     }
+    .md2-popup {
+        padding: 15px;
+        max-width: calc(95% - 30px);
+    }
 }
