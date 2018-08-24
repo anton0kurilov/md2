@@ -317,6 +317,7 @@ aside.md2-aside nav.md2-menu div i.md2-menu-item {
 	-webkit-transition: box-shadow .08s linear, min-width .15s cubic-bezier(.4, .0, .2, 1);
 	transition: box-shadow .08s linear, min-width .15s cubic-bezier(.4, .0, .2, 1);
 	font-weight: 600;
+	border: 0;
 	background-color: white;
 	color: #616161;
 	cursor: pointer;
