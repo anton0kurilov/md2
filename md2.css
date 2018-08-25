@@ -321,6 +321,7 @@ aside.md2-aside nav.md2-menu div i.md2-menu-item {
 	background-color: white;
 	color: #616161;
 	cursor: pointer;
+	outline: none;
 }
 
 .md2-fab {
