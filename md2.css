@@ -437,11 +437,8 @@ aside.md2-aside nav.md2-menu div i.md2-menu-item {
 	div.md2-main {
 		width: 90%;
 	}
-	.md2-fab-round {
-		padding: 15px;
-	}
 	.md2-fab-fix {
-		bottom: 15px;
+		bottom: 55px;
 		right: 15px;
 	}
 	.md2-popup {
