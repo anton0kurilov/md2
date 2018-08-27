@@ -402,6 +402,9 @@ aside.md2-aside nav.md2-menu div i.md2-menu-item {
 }
 
 @media screen and (max-width: 1000px) {
+	main.md2-main {
+		margin: 12px auto;
+	}
 	div.md2-asidemain {
 		flex-direction: column-reverse;
 	}
@@ -444,5 +447,14 @@ aside.md2-aside nav.md2-menu div i.md2-menu-item {
 	.md2-popup {
 		padding: 15px;
 		max-width: calc(95% - 30px);
+	}
+}
+
+@media screen and (max-width: 330px) {
+	main.md2-main {
+		margin: 10px auto;
+	}
+	aside.md2-aside nav.md2-menu div {
+		padding: 12px 20px;
 	}
 }
