@@ -265,7 +265,7 @@ aside.md2-aside nav.md2-menu div i.md2-menu-item {
 .md2-input {
 	cursor: text;
 	outline: none;
-	display: block;
+	width: calc(100% - 20px);
 	padding: 7px 8px;
 }
 
