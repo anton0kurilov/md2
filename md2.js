@@ -2,11 +2,11 @@ $(document).ready(function () {
     // when opening the sidebar
     $('#sidebarCollapse').on('click', function () {
         $('#sidebar').addClass('active');
-        $('.overlay').fadeIn();
+        $('.md2-overlay').fadeIn();
     });
     // if dismiss or overlay was clicked
-    $('.overlay').on('click', function () {
+    $('.md2-overlay').on('click', function () {
         $('#sidebar').removeClass('active');
-        $('.overlay').fadeOut();
+        $('.md2-overlay').fadeOut();
     });
 });
