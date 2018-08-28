@@ -397,6 +397,13 @@ aside.md2-aside {
     header.md2-header nav.md2-menu {
         display: none;
     }
+    #md2-sidebar {
+        width: 280px;
+        left: -290px;
+    }
+    #md2-sidebar.active {
+        left: 0;
+    }
     main.md2-main,
     div.md2-main {
         width: 90%;
