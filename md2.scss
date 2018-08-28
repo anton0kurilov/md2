@@ -394,8 +394,12 @@ aside.md2-aside {
 }
 
 @media screen and (max-width: 800px) {
-    header.md2-header nav.md2-menu {
-        display: none;
+    header.md2-header {
+        height: 80px;
+        line-height: 80px;
+        nav.md2-menu {
+            display: none;
+        }
     }
     #md2-sidebar {
         width: 280px;
