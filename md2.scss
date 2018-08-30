@@ -94,7 +94,7 @@ header.md2-header {
 
 header.md2-header nav.md2-menu {
     margin: 0 20px 0 auto;
-    a {
+    .md2-menu-item {
         text-decoration: none;
         text-transform: uppercase;
         color: $md-color-gray;
@@ -104,7 +104,7 @@ header.md2-header nav.md2-menu {
         border-bottom: .25rem solid transparent;
         transition: all .3s;
     }
-    a:hover {
+    .md2-menu-item:hover {
         color: $md-color-gray2;
         border-color: $md-color-blue;
     }
