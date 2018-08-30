@@ -11,9 +11,7 @@
 *   · Roboto Font (Apache License Version 2.0)
 *   · Material Icons (Apache License Version 2.0)
 */
-
 /*-- VAR --*/
-
 $md-color-blue: #4285f4;
 $md-color-gray: #8e8e8e;
 $md-color-gray2: #616161;
@@ -21,14 +19,12 @@ $md-color-border: rgba(0, 0, 0, .2);
 $md-color-shadow: rgba(0, 0, 0, .26);
 $md-width-main: 1200px;
 /*-- FONTS --*/
-
 @import url('https://fonts.googleapis.com/css?family=Product+Sans');
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 /*-- ICONS --*/
-
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
-/*-- MAIN TAGS --*/
 
+/*-- MAIN TAGS --*/
 body.md2 {
     margin: 0;
     padding: 0;
@@ -53,22 +49,24 @@ a.md2-a {
 }
 
 /*-- HEADER --*/
-
 header.md2-header {
     background-color: white;
     width: 100%;
     height: 90px;
     line-height: 90px;
     box-shadow: 0 .125rem .3125rem $md-color-shadow;
+
     a {
         text-decoration: none;
         color: $md-color-gray2;
     }
+
     h1.md2-title {
         margin: 0;
         font-family: 'Product Sans', sans-serif;
         font-size: 1.8em;
     }
+
     i.md2-icon-menu,
     i.md2-icon-search {
         padding: 10px;
@@ -78,9 +76,11 @@ header.md2-header {
         cursor: pointer;
         transition: all .3s;
     }
+
     i.md2-icon-search {
         margin-left: auto;
     }
+
     i.md2-icon-menu:hover,
     i.md2-icon-search:hover {
         background-color: rgba(0, 0, 0, .071);
@@ -94,6 +94,7 @@ header.md2-header {
 
 header.md2-header nav.md2-menu {
     margin: 0 20px 0 auto;
+
     .md2-menu-item {
         text-decoration: none;
         text-transform: uppercase;
@@ -104,6 +105,7 @@ header.md2-header nav.md2-menu {
         border-bottom: .25rem solid transparent;
         transition: all .3s;
     }
+
     .md2-menu-item:hover {
         color: $md-color-gray2;
         border-color: $md-color-blue;
@@ -111,7 +113,6 @@ header.md2-header nav.md2-menu {
 }
 
 /*-- MAIN --*/
-
 main.md2-main {
     margin: 25px auto;
 }
@@ -126,7 +127,6 @@ div.md2-main {
 }
 
 /*-- ASIDE --*/
-
 div.md2-asidemain {
     display: flex;
     justify-content: flex-start;
@@ -135,8 +135,10 @@ div.md2-asidemain {
 
 aside.md2-aside {
     width: 100px;
+
     nav.md2-menu {
         margin: 15px 0;
+
         nav.md2-menu div {
             text-align: center;
             overflow: hidden;
@@ -144,10 +146,12 @@ aside.md2-aside {
             margin: 0;
             border-bottom: .25rem solid transparent;
             cursor: pointer;
+
             i.md2-menu-icon {
                 display: block;
                 font-size: 2em;
             }
+
             i.md2-menu-item {
                 text-decoration: none;
                 text-transform: uppercase;
@@ -158,9 +162,11 @@ aside.md2-aside {
                 font-size: 10px;
             }
         }
+
         div:hover {
             color: #4285f4;
         }
+
         a {
             text-decoration: none;
             color: $md-color-gray2;
@@ -186,7 +192,6 @@ aside.md2-aside {
 }
 
 /*-- CARDS --*/
-
 .md2-card,
 .md2-card-noshadow {
     background-color: white;
@@ -206,7 +211,6 @@ aside.md2-aside {
 }
 
 /*-- BUTTONS & INPUTS --*/
-
 .md2-button-blue,
 .md2-button-blue-simple,
 .md2-button-gray,
@@ -323,7 +327,6 @@ aside.md2-aside {
 }
 
 /*-- POPUP --*/
-
 .md2-overlay {
     position: fixed;
     top: 0;
@@ -353,12 +356,13 @@ aside.md2-aside {
 }
 
 /*-- MOBILE OPTIMIZATIONS --*/
-
 @media screen and (max-width: 1400px) {
+
     main.md2-main,
     div.md2-main {
         width: 80%;
     }
+
     main.md2-main {
         margin: 20px auto;
     }
@@ -368,9 +372,11 @@ aside.md2-aside {
     main.md2-main {
         margin: 12px auto;
     }
+
     div.md2-asidemain {
         flex-direction: column-reverse;
     }
+
     aside.md2-aside {
         width: 100%;
         height: 80px;
@@ -381,15 +387,22 @@ aside.md2-aside {
         left: 0;
         right: 0;
         z-index: 995;
+
         nav.md2-menu {
             margin: 0;
             display: flex;
             justify-content: center;
             align-items: center;
+
             div {
                 padding: 12px 30px;
             }
         }
+    }
+
+    .md2-fab-fix {
+        bottom: 55px;
+        right: 15px;
     }
 }
 
@@ -397,25 +410,26 @@ aside.md2-aside {
     header.md2-header {
         height: 80px;
         line-height: 80px;
+
         nav.md2-menu {
             display: none;
         }
     }
+
     #md2-sidebar {
         width: 280px;
         left: -290px;
     }
+
     #md2-sidebar.active {
         left: 0;
     }
+
     main.md2-main,
     div.md2-main {
         width: 90%;
     }
-    .md2-fab-fix {
-        bottom: 55px;
-        right: 15px;
-    }
+
     .md2-popup {
         padding: 15px;
         max-width: calc(95% - 30px);
@@ -426,6 +440,7 @@ aside.md2-aside {
     main.md2-main {
         margin: 10px auto;
     }
+
     aside.md2-aside nav.md2-menu div {
         padding: 12px 20px;
     }
