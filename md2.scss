@@ -185,6 +185,36 @@ aside.md2-aside {
     transition: all .3s;
     overflow-y: hidden;
     box-shadow: 0 0 16px rgba(0, 0, 0, .3);
+
+    nav.md2-menu a {
+        text-decoration: none;
+        color: #616161;
+    }
+
+    nav.md2-menu div {
+        padding: 20px;
+        color: #616161;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        transition: all .3s;
+
+        i.md2-menu-icon {
+            padding: 0 30px 0 0;
+        }
+
+        i.md2-menu-item {
+            font-style: initial;
+            font-size: 1.2em;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+    }
+
+    nav.md2-menu div:hover {
+        background-color: rgba(0, 0, 0, .071);
+    }
 }
 
 #md2-sidebar.active {

@@ -181,7 +181,7 @@ aside.md2-aside nav.md2-menu div i.md2-menu-item {
 	font-size: 10px;
 }
 
-#md2-sidebar {
+aside#md2-sidebar {
 	width: 350px;
 	position: fixed;
 	top: 0;
@@ -197,8 +197,41 @@ aside.md2-aside nav.md2-menu div i.md2-menu-item {
 	box-shadow: 0 0 16px rgba(0, 0, 0, .3);
 }
 
-#md2-sidebar.active {
+aside#md2-sidebar.active {
 	left: 0;
+}
+
+aside#md2-sidebar nav.md2-menu a {
+	text-decoration: none;
+	color: #616161;
+}
+
+aside#md2-sidebar nav.md2-menu div {
+	padding: 20px;
+	color: #616161;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	-moz-transition: all .3s;
+	-ms-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
+}
+
+aside#md2-sidebar nav.md2-menu div:hover {
+	background-color: rgba(0, 0, 0, .071);
+}
+
+aside#md2-sidebar nav.md2-menu div i.md2-menu-icon {
+	padding: 0 30px 0 0;
+}
+
+aside#md2-sidebar nav.md2-menu div i.md2-menu-item {
+	font-style: initial;
+	font-size: 1.2em;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
 }
 
 /*-- CARDS --*/
