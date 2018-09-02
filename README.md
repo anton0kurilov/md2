@@ -14,4 +14,4 @@ Enjoy!
 
 ## Copyright and licence
 
-Code released under the [MIT Licence](https://github.com/anton0kurilov/md2/blob/master/LICENSE). 
+Code released under the [Unlicence](https://github.com/anton0kurilov/md2/blob/master/LICENSE). 
