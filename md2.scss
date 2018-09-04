@@ -377,12 +377,12 @@ aside.md2-aside {
 }
 
 .md2-overlay-popup {
-    display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .md2-popup {
+    display: none;
     z-index: 999;
     background-color: white;
     padding: 25px;

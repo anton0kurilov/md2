@@ -425,12 +425,12 @@ aside#md2-sidebar nav.md2-menu div i.md2-menu-item {
 }
 
 .md2-overlay-popup {
-	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
 .md2-popup {
+	display: none;
 	z-index: 999;
 	background-color: white;
 	padding: 25px;
