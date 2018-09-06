@@ -20,11 +20,4 @@ $(document).ready(function () {
         });
         $('.md2-popup').fadeIn();
     });
-    // close popup
-    $('.md2-popup-close').on('click', function () {
-        $('.md2-overlay-popup').css({
-            display: 'none'
-        });
-        $('.md2-overlay-popup').fadeOut();
-    });
 });
