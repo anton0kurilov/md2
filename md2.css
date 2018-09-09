@@ -473,9 +473,9 @@ aside#md2-sidebar nav.md2-menu div i.md2-menu-item {
 	background-color: white;
 	padding: 25px;
 	max-width: 35%;
-	-moz-border-radius: 2px;
-	-webkit-border-radius: 2px;
-	border-radius: 2px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
 	-moz-box-shadow: 0 12px 15px 0 rgba(0, 0, 0, .24);
 	-webkit-box-shadow: 0 12px 15px 0 rgba(0, 0, 0, .24);
 	box-shadow: 0 12px 15px 0 rgba(0, 0, 0, .24);
