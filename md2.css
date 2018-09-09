@@ -540,12 +540,12 @@ aside#md2-sidebar nav.md2-menu div i.md2-menu-item {
 		display: none;
 	}
 
-	#md2-sidebar {
+	aside#md2-sidebar {
 		width: 280px;
 		left: -290px;
 	}
 
-	#md2-sidebar.active {
+	aside#md2-sidebar.active {
 		left: 0;
 	}
 
