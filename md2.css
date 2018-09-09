@@ -555,8 +555,8 @@ aside#md2-sidebar nav.md2-menu div i.md2-menu-item {
 	}
 
 	.md2-popup {
-		padding: 15px;
-		max-width: calc(95% - 30px);
+		padding: 15px 20px;
+		max-width: calc(95% - 40px);
 	}
 }
 
