@@ -487,6 +487,18 @@ aside#md2-sidebar {
     #md2-sidebar {
         width: 280px;
         left: -290px;
+
+        .md2-cover {
+            height: 180px;
+
+            .md2-title {
+                margin: 125px 0 0;
+            }
+        }
+
+        .md2-cover::after {
+            height: 180px;
+        }
     }
 
     #md2-sidebar.active {

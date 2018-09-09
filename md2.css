@@ -549,6 +549,18 @@ aside#md2-sidebar nav.md2-menu div i.md2-menu-item {
 		left: 0;
 	}
 
+	aside#md2-sidebar .md2-cover {
+		height: 180px;
+	}
+
+	aside#md2-sidebar .md2-cover::after {
+		height: 180px;
+	}
+
+	aside#md2-sidebar .md2-cover .md2-title {
+		margin: 125px 0 0;
+	}
+
 	main.md2-main,
 	div.md2-main {
 		width: 90%;
