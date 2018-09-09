@@ -206,7 +206,7 @@ aside#md2-sidebar {
 	-ms-transition: all .3s;
 	-o-transition: all .3s;
 	transition: all .3s;
-	overflow-y: hidden;
+	overflow: hidden;
 	box-shadow: 0 0 16px rgba(0, 0, 0, .3);
 }
 
@@ -239,11 +239,15 @@ aside#md2-sidebar .md2-cover::after {
 
 aside#md2-sidebar .md2-cover .md2-title {
 	position: absolute;
+	width: calc(100% - 40px);
 	margin: 145px 0 0;
 	padding: 0 20px;
 	font-size: 2em;
 	color: white;
 	z-index: 991;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
 }
 
 aside#md2-sidebar nav.md2-menu div {

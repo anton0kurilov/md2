@@ -212,11 +212,15 @@ aside#md2-sidebar {
 
         .md2-title {
             position: absolute;
+            width: calc(100% - 40px);
             margin: 145px 0 0;
             padding: 0 20px;
             font-size: 2em;
             color: white;
             z-index: 991;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
         }
     }
 
