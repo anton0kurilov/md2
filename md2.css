@@ -56,6 +56,7 @@ header.md2-header {
 	-moz-box-shadow: 0 .125rem .3125rem rgba(0, 0, 0, .26);
 	-webkit-box-shadow: 0 .125rem .3125rem rgba(0, 0, 0, .26);
 	box-shadow: 0 .125rem .3125rem rgba(0, 0, 0, .26);
+	overflow: hidden;
 }
 
 header.md2-header .md2-header-body {
