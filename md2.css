@@ -285,6 +285,7 @@ footer.md2-footer {
 	background: #f8f9fa;
 	width: 100%;
 	padding: 35px 0;
+	overflow: hidden;
 }
 
 footer.md2-footer div.md2-main {
