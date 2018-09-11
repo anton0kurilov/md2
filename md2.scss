@@ -265,6 +265,43 @@ aside#md2-sidebar {
     left: 0;
 }
 
+/*-- FOOTER --*/
+footer.md2-footer {
+    background: #f8f9fa;
+    width: 100%;
+    padding: 35px 0;
+
+    div.md2-main {
+        display: flex;
+        align-items: center;
+    }
+
+    .md2-title {
+        margin: 0;
+        padding: 0 55px 0 0;
+    }
+
+    nav.md2-menu {
+        width: 100%;
+        display: flex;
+
+        a.md2-menu-item {
+            color: #616161;
+            text-decoration: none;
+            display: block;
+            margin: 0 20px 0 0;
+            padding: 10px 15px;
+            border-radius: 3px;
+            transition: all .3s;
+        }
+
+        a.md2-menu-item:hover {
+            background-color: rgba(0, 0, 0, .071);
+        }
+    }
+
+}
+
 /*-- CARDS --*/
 .md2-card,
 .md2-card-noshadow {
@@ -472,6 +509,14 @@ aside#md2-sidebar {
                 padding: 12px 30px;
             }
         }
+    }
+
+    footer.md2-footer div.md2-main {
+        display: block;
+    }
+
+    footer.md2-footer .md2-title {
+        padding: 0 0 15px 0;
     }
 
     .md2-fab-fix {

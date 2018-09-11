@@ -280,6 +280,47 @@ aside#md2-sidebar nav.md2-menu div i.md2-menu-item {
 	white-space: nowrap;
 }
 
+/*-- FOOTER --*/
+footer.md2-footer {
+	background: #f8f9fa;
+	width: 100%;
+	padding: 35px 0;
+}
+
+footer.md2-footer div.md2-main {
+	display: flex;
+	align-items: center;
+}
+
+footer.md2-footer .md2-title {
+	margin: 0;
+	padding: 0 55px 0 0;
+}
+
+footer.md2-footer nav.md2-menu {
+	width: 100%;
+	display: flex;
+}
+
+footer.md2-footer nav.md2-menu a.md2-menu-item {
+	color: #616161;
+	text-decoration: none;
+	display: block;
+	margin: 0 20px 0 0;
+	padding: 10px 15px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	-moz-transition: all .3s;
+	-ms-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
+}
+
+footer.md2-footer nav.md2-menu a.md2-menu-item:hover {
+	background-color: rgba(0, 0, 0, .071);
+}
+
 /*-- CARDS --*/
 .md2-card,
 .md2-card-noshadow {
@@ -528,6 +569,14 @@ aside#md2-sidebar nav.md2-menu div i.md2-menu-item {
 
 	aside.md2-aside nav.md2-menu div {
 		padding: 12px 30px;
+	}
+
+	footer.md2-footer div.md2-main {
+		display: block;
+	}
+
+	footer.md2-footer .md2-title {
+		padding: 0 0 15px 0;
 	}
 
 	.md2-fab-fix {
