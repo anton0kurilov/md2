@@ -83,15 +83,14 @@ header.md2-header {
         font-size: 1.8em;
         cursor: pointer;
         transition: all .3s;
+
+        &:hover {
+            background-color: rgba(0, 0, 0, .071);
+        }
     }
 
     i.md2-icon-search {
         margin-left: auto;
-    }
-
-    i.md2-icon-menu:hover,
-    i.md2-icon-search:hover {
-        background-color: rgba(0, 0, 0, .071);
     }
 }
 
@@ -112,12 +111,13 @@ header.md2-header nav.md2-menu {
         margin: 0 .5rem;
         border-bottom: .25rem solid transparent;
         transition: all .3s;
+
+        &:hover {
+            color: $md-color-gray2;
+            border-color: $md-color-blue;
+        }
     }
 
-    .md2-menu-item:hover {
-        color: $md-color-gray2;
-        border-color: $md-color-blue;
-    }
 }
 
 /*-- MAIN --*/
@@ -170,10 +170,10 @@ aside.md2-aside {
                 white-space: nowrap;
                 font-size: 10px;
             }
-        }
 
-        div:hover {
-            background-color: rgba(0, 0, 0, .071);
+            &:hover {
+                background-color: rgba(0, 0, 0, .071);
+            }
         }
 
         .active {
@@ -254,10 +254,10 @@ aside#md2-sidebar {
             overflow: hidden;
             white-space: nowrap;
         }
-    }
 
-    nav.md2-menu div:hover {
-        background-color: rgba(0, 0, 0, .071);
+        &:hover {
+            background-color: rgba(0, 0, 0, .071);
+        }
     }
 }
 
@@ -294,10 +294,10 @@ footer.md2-footer {
             padding: 10px 15px;
             border-radius: 3px;
             transition: all .3s;
-        }
 
-        a.md2-menu-item:hover {
-            background-color: rgba(0, 0, 0, .071);
+            &:hover {
+                background-color: rgba(0, 0, 0, .071);
+            }
         }
     }
 
@@ -360,21 +360,21 @@ footer.md2-footer {
 .md2-button-blue {
     border: 2px solid $md-color-blue;
     color: $md-color-blue;
+
+    &:hover {
+        background-color: $md-color-blue;
+        color: white;
+    }
 }
 
 .md2-button-blue-simple {
     border: 2px solid transparent;
     color: $md-color-blue;
-}
 
-.md2-button-blue:hover {
-    background-color: $md-color-blue;
-    color: white;
-}
-
-.md2-button-blue-simple:hover {
-    background-color: rgba(66, 133, 244, .2);
-    color: $md-color-blue;
+    &:hover {
+        background-color: rgba(66, 133, 244, .2);
+        color: $md-color-blue;
+    }
 }
 
 .md2-button-gray,
@@ -383,19 +383,19 @@ footer.md2-footer {
     color: $md-color-gray;
 }
 
-.md2-button-gray-simple {
-    border: 2px solid transparent;
-    color: $md-color-gray;
-}
-
 .md2-button-gray:hover {
     background-color: $md-color-gray;
     color: white;
 }
 
-.md2-button-gray-simple:hover {
-    background-color: rgba(142, 142, 142, .2);
+.md2-button-gray-simple {
+    border: 2px solid transparent;
     color: $md-color-gray;
+
+    &:hover {
+        background-color: rgba(142, 142, 142, .2);
+        color: $md-color-gray;
+    }
 }
 
 .md2-fab,
