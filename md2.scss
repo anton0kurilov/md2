@@ -352,6 +352,8 @@ footer.md2-footer {
     cursor: text;
     outline: none;
     width: calc(100% - 20px);
+    min-width: 100px;
+    min-height: 20px;
     padding: 7px 8px;
 }
 
