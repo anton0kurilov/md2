@@ -17,6 +17,7 @@ $md-color-gray: #8e8e8e;
 $md-color-gray2: #616161;
 $md-color-border: rgba(0, 0, 0, .2);
 $md-color-shadow: rgba(0, 0, 0, .26);
+$md-color-hover: rgba(0, 0, 0, .071);
 $md-width-main: 1200px;
 /*-- FONTS --*/
 @import url('https://fonts.googleapis.com/css?family=Product+Sans');
@@ -85,7 +86,7 @@ header.md2-header {
         transition: all .3s;
 
         &:hover {
-            background-color: rgba(0, 0, 0, .071);
+            background-color: $md-color-hover;
         }
     }
 
@@ -172,7 +173,7 @@ aside.md2-aside {
             }
 
             &:hover {
-                background-color: rgba(0, 0, 0, .071);
+                background-color: $md-color-hover;
             }
         }
 
@@ -256,7 +257,7 @@ aside#md2-sidebar {
         }
 
         &:hover {
-            background-color: rgba(0, 0, 0, .071);
+            background-color: $md-color-hover;
         }
     }
 }
@@ -298,7 +299,7 @@ footer.md2-footer {
             transition: all .3s;
 
             &:hover {
-                background-color: rgba(0, 0, 0, .071);
+                background-color: $md-color-hover;
             }
         }
     }
