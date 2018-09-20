@@ -344,7 +344,7 @@ footer.md2-footer nav.md2-menu a.md2-menu-item:hover {
 }
 
 .md2-card-noshadow {
-	border: 2px solid rgba(0, 0, 0, .26);
+	border: 2px solid #e0e0e0;
 }
 
 /*-- BUTTONS & INPUTS --*/
