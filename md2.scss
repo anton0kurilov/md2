@@ -266,6 +266,24 @@ aside#md2-sidebar {
     left: 0;
 }
 
+aside#md2-sidebar nav.md2-menu-noicon a {
+    padding: 20px;
+    color: $md-color-gray2;
+    text-decoration: none;
+    font-size: 1.2em;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    transition: all .3s;
+
+    &:hover {
+        background-color: $md-color-hover;
+    }
+}
+
 /*-- FOOTER --*/
 footer.md2-footer {
     background: #f8f9fa;
