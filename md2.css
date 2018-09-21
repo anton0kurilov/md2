@@ -21,8 +21,8 @@
 body.md2 {
 	margin: 0;
 	padding: 0;
-	background-color: white;
-	color: #616161;
+	background-color: rgba(255, 255, 255, 1);
+	color: rgba(97, 97, 97, 1);
 	font-family: 'Product Sans', 'Roboto', sans-serif;
 }
 
@@ -49,7 +49,7 @@ hr.md2-hr {
 
 /*-- HEADER --*/
 header.md2-header {
-	background-color: white;
+	background-color: rgba(255, 255, 255, 1);
 	width: 100%;
 	height: 90px;
 	line-height: 90px;
@@ -67,7 +67,7 @@ header.md2-header .md2-header-body {
 
 header.md2-header a {
 	text-decoration: none;
-	color: #616161;
+	color: rgba(97, 97, 97, 1);
 }
 
 header.md2-header h1.md2-title {
@@ -107,7 +107,7 @@ header.md2-header nav.md2-menu {
 header.md2-header nav.md2-menu .md2-menu-item {
 	text-decoration: none;
 	text-transform: uppercase;
-	color: #8e8e8e;
+	color: rgba(142, 142, 142, 1);
 	font-weight: 600;
 	padding: 37px .75rem 32.5px .75rem;
 	margin: 0 .5rem;
@@ -119,8 +119,8 @@ header.md2-header nav.md2-menu .md2-menu-item {
 }
 
 header.md2-header nav.md2-menu .md2-menu-item:hover {
-	color: #616161;
-	border-color: #4285f4;
+	color: rgba(97, 97, 97, 1);
+	border-color: rgba(66, 133, 244, 1);
 }
 
 /*-- MAIN --*/
@@ -170,7 +170,7 @@ aside.md2-aside nav.md2-menu div {
 
 aside.md2-aside nav.md2-menu a {
 	text-decoration: none;
-	color: #616161;
+	color: rgba(97, 97, 97, 1);
 }
 
 aside.md2-aside nav.md2-menu div:hover {
@@ -178,7 +178,7 @@ aside.md2-aside nav.md2-menu div:hover {
 }
 
 aside.md2-aside nav.md2-menu .active {
-	color: #4285f4;
+	color: rgba(66, 133, 244, 1);
 }
 
 aside.md2-aside nav.md2-menu div i.md2-menu-icon {
@@ -203,7 +203,7 @@ aside#md2-sidebar {
 	left: -360px;
 	height: 100vh;
 	z-index: 9999;
-	background: white;
+	background: rgba(255, 255, 255, 1);
 	-moz-transition: all .3s;
 	-ms-transition: all .3s;
 	-o-transition: all .3s;
@@ -218,7 +218,7 @@ aside#md2-sidebar.active {
 
 aside#md2-sidebar nav.md2-menu a {
 	text-decoration: none;
-	color: #616161;
+	color: rgba(97, 97, 97, 1);
 }
 
 aside#md2-sidebar .md2-cover {
@@ -245,7 +245,7 @@ aside#md2-sidebar .md2-cover .md2-title {
 	margin: 145px 0 0;
 	padding: 0 20px;
 	font-size: 2em;
-	color: white;
+	color: rgba(255, 255, 255, 1);
 	z-index: 991;
 	overflow: hidden;
 	white-space: nowrap;
@@ -254,7 +254,7 @@ aside#md2-sidebar .md2-cover .md2-title {
 
 aside#md2-sidebar nav.md2-menu div {
 	padding: 20px;
-	color: #616161;
+	color: rgba(97, 97, 97, 1);
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
@@ -282,7 +282,7 @@ aside#md2-sidebar nav.md2-menu div i.md2-menu-item {
 
 aside#md2-sidebar nav.md2-menu-noicon a {
 	padding: 20px;
-	color: #616161;
+	color: rgba(97, 97, 97, 1);
 	text-decoration: none;
 	font-size: 1.2em;
 	text-overflow: ellipsis;
@@ -303,7 +303,7 @@ aside#md2-sidebar nav.md2-menu-noicon a:hover {
 
 /*-- FOOTER --*/
 footer.md2-footer {
-	background: #f8f9fa;
+	background: rgba(248, 249, 250, 1);
 	width: 100%;
 	padding: 35px 0;
 	overflow: hidden;
@@ -318,7 +318,7 @@ footer.md2-footer .md2-title {
 	margin: 0;
 	padding: 0 55px 0 0;
 	text-decoration: none;
-	color: #616161;
+	color: rgba(97, 97, 97, 1);
 }
 
 footer.md2-footer nav.md2-menu {
@@ -327,7 +327,7 @@ footer.md2-footer nav.md2-menu {
 }
 
 footer.md2-footer nav.md2-menu a.md2-menu-item {
-	color: #616161;
+	color: rgba(97, 97, 97, 1);
 	text-decoration: none;
 	display: block;
 	margin: 0 20px 0 0;
@@ -348,7 +348,7 @@ footer.md2-footer nav.md2-menu a.md2-menu-item:hover {
 /*-- CARDS --*/
 .md2-card,
 .md2-card-noshadow {
-	background-color: white;
+	background-color: rgba(255, 255, 255, 1);
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
 	border-radius: 10px;
@@ -365,7 +365,7 @@ footer.md2-footer nav.md2-menu a.md2-menu-item:hover {
 }
 
 .md2-card-noshadow {
-	border: 2px solid #e0e0e0;
+	border: 2px solid rgba(224, 224, 224, 1);
 }
 
 /*-- BUTTONS & INPUTS --*/
@@ -424,44 +424,44 @@ footer.md2-footer nav.md2-menu a.md2-menu-item:hover {
 }
 
 .md2-button-blue {
-	border: 2px solid #4285f4;
-	color: #4285f4;
+	border: 2px solid rgba(66, 133, 244, 1);
+	color: rgba(66, 133, 244, 1);
 }
 
 .md2-button-blue-simple {
 	border: 2px solid transparent;
-	color: #4285f4;
+	color: rgba(66, 133, 244, 1);
 }
 
 .md2-button-blue:hover {
-	background-color: #4285f4;
-	color: white;
+	background-color: rgba(66, 133, 244, 1);
+	color: rgba(255, 255, 255, 1);
 }
 
 .md2-button-blue-simple:hover {
 	background-color: rgba(66, 133, 244, .2);
-	color: #4285f4;
+	color: rgba(66, 133, 244, 1);
 }
 
 .md2-button-gray,
 .md2-input {
-	border: 2px solid #8e8e8e;
-	color: #8e8e8e;
+	border: 2px solid rgba(142, 142, 142, 1);
+	color: rgba(142, 142, 142, 1);
 }
 
 .md2-button-gray-simple {
 	border: 2px solid transparent;
-	color: #8e8e8e;
+	color: rgba(142, 142, 142, 1);
 }
 
 .md2-button-gray:hover {
-	background-color: #8e8e8e;
-	color: white;
+	background-color: rgba(142, 142, 142, 1);
+	color: rgba(255, 255, 255, 1);
 }
 
 .md2-button-gray-simple:hover {
 	background-color: rgba(142, 142, 142, .2);
-	color: #8e8e8e;
+	color: rgba(142, 142, 142, 1);
 }
 
 .md2-fab,
@@ -477,8 +477,8 @@ footer.md2-footer nav.md2-menu a.md2-menu-item:hover {
 	transition: box-shadow .08s linear, min-width .15s cubic-bezier(.4, .0, .2, 1);
 	font-weight: 600;
 	border: 0;
-	background-color: white;
-	color: #616161;
+	background-color: rgba(255, 255, 255, 1);
+	color: rgba(97, 97, 97, 1);
 	cursor: pointer;
 	outline: none;
 }
@@ -539,7 +539,7 @@ footer.md2-footer nav.md2-menu a.md2-menu-item:hover {
 .md2-popup {
 	display: none;
 	z-index: 999;
-	background-color: white;
+	background-color: rgba(255, 255, 255, 1);
 	padding: 25px;
 	max-width: 35%;
 	-moz-border-radius: 8px;
@@ -575,7 +575,7 @@ footer.md2-footer nav.md2-menu a.md2-menu-item:hover {
 	aside.md2-aside {
 		width: 100%;
 		height: 80px;
-		background-color: white;
+		background-color: rgba(255, 255, 255, 1);
 		-moz-box-shadow: 0 .125rem .3125rem rgba(0, 0, 0, .26);
 		-webkit-box-shadow: 0 .125rem .3125rem rgba(0, 0, 0, .26);
 		box-shadow: 0 .125rem .9125rem rgba(0, 0, 0, .26);

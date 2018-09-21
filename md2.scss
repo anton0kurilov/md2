@@ -12,9 +12,9 @@
 *   · Material Icons (Apache License Version 2.0)
 */
 /*-- VAR --*/
-$md-color-blue: #4285f4;
-$md-color-gray: #8e8e8e;
-$md-color-gray2: #616161;
+$md-color-blue: rgba(66, 133, 244, 1);
+$md-color-gray: rgba(142, 142, 142, 1);
+$md-color-gray2: rgba(97, 97, 97, 1);
 $md-color-border: rgba(0, 0, 0, .2);
 $md-color-shadow: rgba(0, 0, 0, .26);
 $md-color-hover: rgba(0, 0, 0, .071);
@@ -29,7 +29,7 @@ $md-width-main: 1200px;
 body.md2 {
     margin: 0;
     padding: 0;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 1);
     color: $md-color-gray2;
     font-family: 'Product Sans', 'Roboto', sans-serif;
 }
@@ -57,7 +57,7 @@ hr.md2-hr {
 
 /*-- HEADER --*/
 header.md2-header {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 1);
     width: 100%;
     height: 90px;
     line-height: 90px;
@@ -195,7 +195,7 @@ aside#md2-sidebar {
     left: -360px;
     height: 100vh;
     z-index: 9999;
-    background: white;
+    background: rgba(255, 255, 255, 1);
     transition: all .3s;
     overflow-y: hidden;
     box-shadow: 0 0 16px rgba(0, 0, 0, .3);
@@ -219,7 +219,7 @@ aside#md2-sidebar {
             margin: 145px 0 0;
             padding: 0 20px;
             font-size: 2em;
-            color: white;
+            color: rgba(255, 255, 255, 1);
             z-index: 991;
             overflow: hidden;
             white-space: nowrap;
@@ -286,7 +286,7 @@ aside#md2-sidebar nav.md2-menu-noicon a {
 
 /*-- FOOTER --*/
 footer.md2-footer {
-    background: #f8f9fa;
+    background: rgba(248, 249, 250, 1);
     width: 100%;
     padding: 35px 0;
     overflow: hidden;
@@ -327,7 +327,7 @@ footer.md2-footer {
 /*-- CARDS --*/
 .md2-card,
 .md2-card-noshadow {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 1);
     border-radius: 10px;
     padding: 15px 20px;
     margin: 10px 0;
@@ -340,7 +340,7 @@ footer.md2-footer {
 }
 
 .md2-card-noshadow {
-    border: 2px solid #e0e0e0;
+    border: 2px solid rgba(224, 224, 224, 1);
 }
 
 /*-- BUTTONS & INPUTS --*/
@@ -386,7 +386,7 @@ footer.md2-footer {
 
     &:hover {
         background-color: $md-color-blue;
-        color: white;
+        color: rgba(255, 255, 255, 1);
     }
 }
 
@@ -408,7 +408,7 @@ footer.md2-footer {
 
 .md2-button-gray:hover {
     background-color: $md-color-gray;
-    color: white;
+    color: rgba(255, 255, 255, 1);
 }
 
 .md2-button-gray-simple {
@@ -427,7 +427,7 @@ footer.md2-footer {
     transition: box-shadow .08s linear, min-width .15s cubic-bezier(.4, .0, .2, 1);
     font-weight: 600;
     border: 0;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 1);
     color: $md-color-gray2;
     cursor: pointer;
     outline: none;
@@ -483,7 +483,7 @@ footer.md2-footer {
 .md2-popup {
     display: none;
     z-index: 999;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 1);
     padding: 25px;
     max-width: 35%;
     border-radius: 8px;
@@ -515,7 +515,7 @@ footer.md2-footer {
     aside.md2-aside {
         width: 100%;
         height: 80px;
-        background-color: white;
+        background-color: rgba(255, 255, 255, 1);
         box-shadow: 0 .125rem .9125rem $md-color-shadow;
         position: fixed;
         bottom: 0;
