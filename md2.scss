@@ -348,6 +348,7 @@ footer.md2-footer {
 .md2-button-blue-simple,
 .md2-button-gray,
 .md2-button-gray-simple,
+.md2-button-disabled,
 .md2-input {
     background-color: transparent;
     outline: none;
@@ -361,7 +362,8 @@ footer.md2-footer {
 .md2-button-blue,
 .md2-button-blue-simple,
 .md2-button-gray,
-.md2-button-gray-simple {
+.md2-button-gray-simple,
+.md2-button-disabled {
     cursor: pointer;
     padding: 7px 18px;
     transition: all .3s;
@@ -419,6 +421,12 @@ footer.md2-footer {
         background-color: rgba(142, 142, 142, .2);
         color: $md-color-gray;
     }
+}
+
+.md2-button-disabled {
+    color: rgba(224, 224, 224, 1);
+    border: 2px solid rgba(224, 224, 224, 1);
+    cursor: default;
 }
 
 .md2-fab,
