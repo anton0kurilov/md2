@@ -177,6 +177,11 @@ aside.md2-aside {
             }
         }
 
+        nav.md2-menu div.active {
+            background-color: rgba(66, 133, 244, .2);
+            color: rgba(66, 133, 244, 1);
+        }
+
         .active {
             color: $md-color-blue;
         }

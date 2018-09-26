@@ -272,6 +272,11 @@ aside#md2-sidebar nav.md2-menu div {
 	transition: all .3s;
 }
 
+aside#md2-sidebar nav.md2-menu div.active {
+	background-color: rgba(66, 133, 244, .2);
+	color: rgba(66, 133, 244, 1);
+}
+
 aside#md2-sidebar nav.md2-menu div:hover {
 	background-color: rgba(0, 0, 0, .071);
 }
