@@ -258,7 +258,7 @@ aside#md2-sidebar nav.md2-menu {
 
 aside#md2-sidebar nav.md2-menu div {
 	padding: 10px 20px;
-	width: calc(95% - 40px);
+	width: calc(98% - 40px);
 	color: rgba(97, 97, 97, 1);
 	-moz-border-radius: 0 25px 25px 0;
 	-webkit-border-radius: 0 25px 25px 0;
@@ -290,7 +290,7 @@ aside#md2-sidebar nav.md2-menu div i.md2-menu-item {
 
 aside#md2-sidebar nav.md2-menu-noicon a {
 	padding: 10px 20px;
-	width: calc(95% - 40px);
+	width: calc(98% - 40px);
 	color: rgba(97, 97, 97, 1);
 	-moz-border-radius: 0 25px 25px 0;
 	-webkit-border-radius: 0 25px 25px 0;
