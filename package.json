@@ -1,0 +1,33 @@
+{
+  "name": "md2",
+  "version": "0.1.0",
+  "description": "Material Design 2.0 (Material Theme) CSS Framework",
+  "main": "md2.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anton0kurilov/md2.git"
+  },
+  "keywords": [
+    "css",
+    "md",
+    "material",
+    "design",
+    "material",
+    "theme",
+    "css",
+    "library"
+  ],
+  "author": "Anton Kurilov <anton0kurilov@gmail.com> (https://kurilov.site)",
+  "license": "SEE LICENSE IN 'LICENSE'",
+  "bugs": {
+    "url": "https://github.com/anton0kurilov/md2/issues"
+  },
+  "homepage": "https://github.com/anton0kurilov/md2#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-clean-css": "^3.10.0",
+    "gulp-replace-name": "^1.0.1",
+    "gulp-sass": "^4.0.2"
+  }
+}

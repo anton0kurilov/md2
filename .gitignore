@@ -1,2 +1,3 @@
 *.code-workspace
 testfolder
+node_modules
