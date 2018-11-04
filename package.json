@@ -17,6 +17,7 @@
     "css",
     "library"
   ],
+  "private": true,
   "author": "Anton Kurilov <anton0kurilov@gmail.com> (https://kurilov.site)",
   "license": "SEE LICENSE IN 'LICENSE'",
   "bugs": {
