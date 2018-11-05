@@ -2,7 +2,7 @@ var gulp = require('gulp'),
     sass = require('gulp-sass'),
     autoprefixer = require('gulp-autoprefixer'),
     cleancss = require('gulp-clean-css'),
-    replacename = require('gulp-replace-name');;
+    replacename = require('gulp-replace-name');
 
 // SASS
 gulp.task('sass', function (done) {
@@ -16,7 +16,6 @@ gulp.task('sass', function (done) {
         }))
         .pipe(replacename(/\.css/g, '.min.css'))
         .pipe(gulp.dest('css'))
-
     done();
 });
 
