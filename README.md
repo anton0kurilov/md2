@@ -8,7 +8,7 @@ Include the lines in your HTML page:
 ```
 ```
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-<script src="https://rawgit.com/anton0kurilov/md2/master/js/md2.js"></script>
+<script src="https://rawgit.com/anton0kurilov/md2/master/js/md2.min.js"></script>
 ```
 Enjoy!
 
