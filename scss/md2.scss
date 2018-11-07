@@ -101,7 +101,6 @@ header.md2-header-noshadow {
         margin-left: auto;
     }
 
-
     .md2-header-body {
         display: flex;
         align-items: center;
@@ -522,7 +521,7 @@ footer.md2-footer {
 }
 
 /*-- MOBILE OPTIMIZATIONS --*/
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: $md-width-main + 200px) {
 
     main.md2-main,
     div.md2-main {
