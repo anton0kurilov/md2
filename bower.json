@@ -1,0 +1,30 @@
+{
+  "name": "md2",
+  "description": "Material Design 2.0 (Material Theme) CSS Framework",
+  "main": "md2.min.css",
+  "authors": [
+    "Anton Kurilov <anton0kurilov@gmail.com> (https://kurilov.site)"
+  ],
+  "license": "Unlicense",
+  "keywords": [
+    "css",
+    "md",
+    "material",
+    "design",
+    "material",
+    "theme",
+    "css",
+    "library"
+  ],
+  "homepage": "https://github.com/anton0kurilov/md2",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "gulpfile.js",
+    "package.json",
+    "package-lock.json"
+  ]
+}
