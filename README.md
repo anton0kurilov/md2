@@ -2,6 +2,8 @@
 **Still in development!**
 ## Install
 
+### Direct install
+
 Include the lines in your HTML page:
 ```
 <link rel="stylesheet" type="text/css" href="https://rawgit.com/anton0kurilov/md2/master/css/md2.min.css">
@@ -10,7 +12,11 @@ Include the lines in your HTML page:
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 <script src="https://rawgit.com/anton0kurilov/md2/master/js/md2.min.js"></script>
 ```
-Enjoy!
+
+### Install with Bower
+```
+bower install md2
+```
 
 ## Documentation
 
