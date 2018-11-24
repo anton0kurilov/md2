@@ -155,7 +155,7 @@ aside.md2-aside {
     nav.md2-menu {
         margin: 15px 5px;
 
-        nav.md2-menu div {
+        div {
             text-align: center;
             overflow: hidden;
             padding: 15px 0;
@@ -182,20 +182,21 @@ aside.md2-aside {
             &:hover {
                 background-color: $md-color-hover;
             }
-        }
 
-        nav.md2-menu div.active {
-            background-color: rgba(66, 133, 244, .2);
-            color: rgba(66, 133, 244, 1);
-        }
+            div.active {
+                background-color: rgba(66, 133, 244, .2);
+                color: $md-color-blue;
+            }
 
-        .active {
-            color: $md-color-blue;
-        }
+            .active {
+                color: $md-color-blue;
+            }
 
-        a {
-            text-decoration: none;
-            color: $md-color-gray2;
+            a {
+                text-decoration: none;
+                color: $md-color-gray2;
+            }
+
         }
     }
 }
@@ -211,11 +212,6 @@ aside#md2-sidebar {
     transition: all .3s;
     overflow-y: hidden;
     box-shadow: 0 0 16px rgba(0, 0, 0, .3);
-
-    nav.md2-menu a {
-        text-decoration: none;
-        color: $md-color-gray2;
-    }
 
     .md2-cover {
         background-image: url('https://goo.gl/hBd5zX');
@@ -272,6 +268,11 @@ aside#md2-sidebar {
                 text-overflow: ellipsis;
                 overflow: hidden;
                 white-space: nowrap;
+            }
+
+            a {
+                text-decoration: none;
+                color: $md-color-gray2;
             }
 
             &:hover {
