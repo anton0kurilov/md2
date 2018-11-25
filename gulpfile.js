@@ -13,7 +13,7 @@ gulp.task('sass', function (done) {
             cascade: true
         }))
         .pipe(cleancss({
-            compatibility: 'ie8'
+            compatibility: 'ie7'
         }))
         .pipe(replacename(/\.css/g, '.min.css'))
         .pipe(gulp.dest('css'))
@@ -27,6 +27,7 @@ gulp.task('scripts', function (done) {
         .pipe(replacename(/\.js/g, '.min.js'))
         .pipe(gulp.dest('js'))
     done();
-})
+});
+
 // BUILD
 gulp.task('build', gulp.series('sass', 'scripts'));
