@@ -191,12 +191,11 @@ aside.md2-aside {
             .active {
                 color: $md-color-blue;
             }
+        }
 
-            a {
-                text-decoration: none;
-                color: $md-color-gray2;
-            }
-
+        a {
+            text-decoration: none;
+            color: $md-color-gray2;
         }
     }
 }
