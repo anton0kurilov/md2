@@ -247,36 +247,37 @@ aside#md2-sidebar {
     nav.md2-menu {
         margin: 10px 0;
 
-        div {
-            padding: 10px 20px;
-            width: calc(98% - 40px);
-            color: rgba(97, 97, 97, 1);
-            border-radius: 0 25px 25px 0;
+        a {
+            text-decoration: none;
             color: $md-color-gray2;
-            display: flex;
-            justify-content: flex-start;
-            align-items: center;
-            transition: all .3s;
 
-            i.md2-menu-icon {
-                padding: 0 30px 0 0;
-            }
-
-            i.md2-menu-item {
-                font-style: initial;
-                font-size: 1.2em;
-                text-overflow: ellipsis;
-                overflow: hidden;
-                white-space: nowrap;
-            }
-
-            a {
-                text-decoration: none;
+            div {
+                padding: 10px 20px;
+                width: calc(98% - 40px);
+                color: rgba(97, 97, 97, 1);
+                border-radius: 0 25px 25px 0;
                 color: $md-color-gray2;
-            }
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                transition: all .3s;
 
-            &:hover {
-                background-color: $md-color-hover;
+                i.md2-menu-icon {
+                    padding: 0 30px 0 0;
+                }
+
+                i.md2-menu-item {
+                    font-style: initial;
+                    font-size: 1.2em;
+                    text-overflow: ellipsis;
+                    overflow: hidden;
+                    white-space: nowrap;
+                }
+
+                &:hover {
+                    background-color: $md-color-hover;
+                }
+
             }
         }
     }
