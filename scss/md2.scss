@@ -184,10 +184,11 @@ aside.md2-aside {
                 background-color: $md-color-hover;
             }
 
-            .active {
-                background-color: rgba(66, 133, 244, .2);
-                color: $md-color-blue;
-            }
+        }
+
+        .active {
+            background-color: rgba(66, 133, 244, .2);
+            color: $md-color-blue;
         }
 
         a {
