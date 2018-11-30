@@ -598,9 +598,11 @@ footer.md2-footer {
 }
 
 @media screen and (max-width: 800px) {
-    header.md2-header {
-        height: 80px;
-        line-height: 80px;
+
+    header.md2-header,
+    header.md2-header-noshadow {
+        height: 76px;
+        line-height: 76px;
 
         nav.md2-menu {
             display: none;
