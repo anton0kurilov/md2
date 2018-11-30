@@ -249,7 +249,7 @@ aside#md2-sidebar {
             color: $md-color-gray2;
 
             div {
-                padding: 10px 20px;
+                padding: 12px 20px;
                 width: calc(98% - 40px);
                 color: rgba(97, 97, 97, 1);
                 border-radius: 0 25px 25px 0;
@@ -540,6 +540,15 @@ footer.md2-footer {
 }
 
 @media screen and (max-width: 1000px) {
+    aside#md2-sidebar {
+        width: 300px;
+        left: -310px;
+    }
+
+    #md2-sidebar.active {
+        left: 0;
+    }
+
     main.md2-main {
         margin: 12px auto 82px auto;
     }
