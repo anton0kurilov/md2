@@ -160,7 +160,7 @@ aside.md2-aside {
             overflow: hidden;
             padding: 15px 0;
             border-radius: 3px;
-            margin: 0;
+            margin: 3px 0;
             border-bottom: .25rem solid transparent;
             cursor: pointer;
 
@@ -566,6 +566,7 @@ footer.md2-footer {
 
             div {
                 padding: 12px 30px;
+                margin: 0 3px;
             }
         }
     }
