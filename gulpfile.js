@@ -28,5 +28,12 @@ gulp.task('scripts', function (done) {
     done();
 });
 
+// WATCH
+gulp.task('watch', function (done) {
+    gulp.watch('scss/**/*.scss', gulp.series('sass'));
+    gulp.watch('js/**/*.js', gulp.series('scripts'));
+    done();
+});
+
 // BUILD
 gulp.task('build', gulp.series('sass', 'scripts'));
