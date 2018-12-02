@@ -91,6 +91,9 @@ header.md2-header-noshadow {
         font-size: 1.8em;
         cursor: pointer;
         transition: all .3s;
+        outline: none;
+        user-select: none;
+        -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 
         &:hover {
             background-color: $md-color-hover;
@@ -379,6 +382,9 @@ footer.md2-footer {
     border-radius: 4px;
     font-weight: 600;
     font-family: 'Product Sans', sans-serif;
+    outline: none;
+    user-select: none;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 }
 
 .md2-button-blue,
