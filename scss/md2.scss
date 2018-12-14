@@ -81,6 +81,7 @@ header.md2-header-noshadow {
         margin: 0;
         font-family: 'Product Sans', sans-serif;
         font-size: 1.8em;
+        -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
     }
 
     i.md2-icon-menu,
@@ -121,6 +122,7 @@ header.md2-header-noshadow {
             margin: 0 .5rem;
             border-bottom: .25rem solid transparent;
             transition: all .3s;
+            -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 
             &:hover {
                 color: $md-color-gray2;
@@ -167,6 +169,7 @@ aside.md2-aside {
             border-bottom: .25rem solid transparent;
             cursor: pointer;
             transition: all .3s;
+            -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 
             i.md2-menu-icon {
                 display: block;
@@ -233,6 +236,7 @@ aside#md2-sidebar {
             overflow: hidden;
             white-space: nowrap;
             text-overflow: ellipsis;
+            -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
         }
     }
 
@@ -262,6 +266,7 @@ aside#md2-sidebar {
                 justify-content: flex-start;
                 align-items: center;
                 transition: all .3s;
+                -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 
                 i.md2-menu-icon {
                     padding: 0 30px 0 0;
@@ -298,6 +303,7 @@ aside#md2-sidebar {
         justify-content: flex-start;
         align-items: center;
         transition: all .3s;
+        -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 
         &:hover {
             background-color: $md-color-hover;
@@ -340,6 +346,7 @@ footer.md2-footer {
             padding: 10px 15px;
             border-radius: 3px;
             transition: all .3s;
+            -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 
             &:hover {
                 background-color: $md-color-hover;
