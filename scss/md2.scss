@@ -33,6 +33,12 @@ body.md2 {
     font-family: 'Product Sans', 'Roboto', sans-serif;
 }
 
+a,
+a:hover,
+a:visited {
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+
 h1.md2-h,
 h2.md2-h,
 h3.md2-h,
@@ -46,6 +52,7 @@ h5.md2-h {
 p.md2-p,
 a.md2-a {
     font-family: 'Roboto', sans-serif;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 }
 
 hr.md2-hr {
