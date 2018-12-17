@@ -419,6 +419,12 @@ footer.md2-footer {
     min-width: 100px;
     min-height: 20px;
     padding: 7px 8px;
+
+    &::-webkit-outer-spin-button,
+    &::-webkit-inner-spin-button {
+        -webkit-appearance: none !important;
+        margin: 0 !important;
+    }
 }
 
 .md2-input::placeholder {
