@@ -25,8 +25,8 @@
   },
   "homepage": "https://github.com/anton0kurilov/md2#readme",
   "devDependencies": {
-    "gulp": "^4.0.0",
-    "gulp-autoprefixer": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
     "gulp-clean-css": "^3.10.0",
     "gulp-replace-name": "^1.0.1",
     "gulp-sass": "^4.0.2",
