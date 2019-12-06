@@ -18,6 +18,8 @@ $md-color-gray2: rgba(97, 97, 97, 1);
 $md-color-shadow: rgba(0, 0, 0, .26);
 $md-color-hover: rgba(0, 0, 0, .071);
 $md-width-main: 1200px;
+$md-fab-size: 66px;
+
 /*-- FONTS --*/
 @import url('https://fonts.googleapis.com/css?family=Product+Sans');
 @import url('https://fonts.googleapis.com/css?family=Roboto');
@@ -500,15 +502,15 @@ select.md2-input {
 }
 
 .md2-fab-round {
-    width: 60px;
-    height: 60px;
+    width: $md-fab-size;
+    height: $md-fab-size;
     text-align: center;
     border-radius: 50%;
 }
 
 .md2-fab-round i.md2-icon-add {
-    line-height: 60px;
-    font-size: 1.8em;
+    line-height: $md-fab-size;
+    font-size: 2em;
 }
 
 .md2-fab:hover,
@@ -519,8 +521,8 @@ select.md2-input {
 .md2-fab-fix {
     position: fixed;
     z-index: 997;
-    bottom: 25px;
-    right: 25px;
+    bottom: 30px;
+    right: 30px;
 }
 
 /*-- POPUP --*/
