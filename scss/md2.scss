@@ -557,6 +557,29 @@ select.md2-input {
     width: 35%;
     border-radius: 8px;
     box-shadow: 0 12px 15px 0 rgba(0, 0, 0, .24);
+
+    .md2-popup-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        h3.md2-h {
+            margin: .2em 0;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+
+        .md2-popup-close {
+            transition: all .3s;
+            cursor: pointer;
+            padding: 3px;
+
+            &:hover {
+                opacity: .7;
+            }
+        }
+    }
 }
 
 /*-- MOBILE OPTIMIZATIONS --*/
