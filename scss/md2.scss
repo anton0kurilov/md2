@@ -437,6 +437,11 @@ select.md2-input {
     width: 100%;
 }
 
+textarea.md2-input {
+    resize: vertical;
+    max-height: 250px;
+}
+
 .md2-button-blue {
     border: 2px solid $md-color-blue;
     color: $md-color-blue;
