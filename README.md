@@ -23,4 +23,4 @@ bower install md2
 
 ## Copyright and licence
 
-Code released under the [Unlicence](https://github.com/anton0kurilov/md2/blob/master/LICENSE). 
+Code released under [The Unlicence](https://github.com/anton0kurilov/md2/blob/master/LICENSE). 
